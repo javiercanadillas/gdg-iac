@@ -1,0 +1,10 @@
+# Terraform
+.terraform*
+terraform.tfstate*
+
+# Git
+.git/
+.gitignore
+
+# Other
+Readme.md

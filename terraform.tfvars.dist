@@ -1,0 +1,18 @@
+project_id = "$PROJECT_ID"
+region    = "europe-west1"
+vm_prefix = "my-www-vm"
+create_www_instance = true
+www_instances = {
+  machine_1 = {
+    name_suffix  = "1"
+    machine_type = "e2-micro"
+  },
+  machine_2 = {
+    name_suffix  = "2"
+    machine_type = "e2-micro"
+  },
+  machine_3 = {
+    name_suffix  = "3"
+    machine_type = "e2-micro"
+  }
+}
